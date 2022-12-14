@@ -1,0 +1,193 @@
+.close{
+    display: none;
+}
+.wrapper {
+    .sign_up {
+    overflow: hidden;
+    position: relative;
+    background-color: #9633FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+        .container{   
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+        .left{
+            width:46%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            .left_text{
+                h2{
+                    margin: 10px 0px 30px;
+                }
+            }
+            .imgs{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;    
+
+                .top_img{
+                    width: 90%;
+                }
+                .img_slider{
+                    width: 40px;
+                    margin: 10px 0px;
+                }
+            }
+        }
+        .right{
+            border: none;
+            width: 46%;
+            .sing_google{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                button{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 50px;
+                    border: 1px solid #DEDDE4;
+                    text-align: center;
+                    img{
+                        position: absolute;
+                        left: 0;
+                        margin: 0px 2px;
+                        float: left;
+                    }
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #5D5A6F;
+                margin: 20px 0px;
+               img{
+                height: 1px;
+                width: 30px;
+                color: #5D5A6F;
+                margin:0px 5px ;
+               }
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                label{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 100%;
+                        padding: 10px 40px;
+                    }
+                    img{
+                        position: absolute;
+                    }
+                    .form_icon_user{
+                        top: 52%;
+                        margin:0px 15px ;
+                    }
+                    .form_icon_email{
+                        top: 57%;
+                        margin:0px 15px ;
+                    }
+                    .form_icon_password{
+                        top: 52%;
+                        margin:0px 15px ;
+                    }
+                    svg{
+                        position: absolute;
+                        right: 15px;
+                        top: 50%;
+                        cursor: pointer;
+                    }
+                }
+
+                .I_agree{
+                    margin: 20px 0px !important;
+                    display: flex;
+                    flex-wrap: wrap;
+                    div{
+                        a{
+                            color: #9633FF;
+                            font-size: 12px;
+                        }
+                    }
+                    p{
+                        display: block;
+                        font-size: 12px;
+                        margin: 0px 10px;
+                    }
+                }
+                .btn-info{
+                    border: none;
+                    background-color: #9633FF;
+                    color: #fff;
+                    padding: 10px 25px;
+                }
+                p{
+                    a{
+                        color: #9633FF;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+        }
+        .middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85%;
+            img{
+                height: 100%;
+            }
+        }
+    }
+
+    }
+}
+@media screen and (max-width:768px) {
+    .wrapper{
+        .sign_up{
+            .container{
+                margin: 0px 10px;
+                .left, .middle{
+                    display: none;
+                }
+                .right{
+                    margin: 0px 10px;
+                    width: 100% !important;
+                    padding: 50px 10px;
+                    .sing_google{
+                        button{
+                        font-size: 14px;
+                        padding: 8px 45px;
+                            img{
+                                width: 35px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/registration/reg.css">
+    <link rel="stylesheet" href="styles/sign_in/sign_in.css">
+    <title>SIGN IN</title>
+    <link rel="icon" href="imgs/logo.svg" type="image/gif">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="sign_up">
+            <div class="container">
+                <div class="left">
+                    <div class="left_text">
+                        <div class="logo">
+                            <img src="imgs/logo_login.svg" alt="">
+                            <h2>Welcome to
+                                Eduvi Online
+                                Learning Platform
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <img src="imgs/Login_img.svg" alt="" class="top_img">
+                        <img src="imgs/Sliders.svg" alt="" class="img_slider">
+                    </div>
+                </div>
+                <div class="middle"><img src="imgs/Line.svg" alt=""></div>
+                <div class="right">
+                    <div class="sing_google">
+                        <button class="btn btn-outline-secondary">
+                            <img src="imgs/google_icon.svg" alt="">
+                            Sign in with google
+                        </button>
+                    </div>
+                    <p><img src="imgs/Rectangle 2865.png" alt="">  Or signup with your email <img src="imgs/Rectangle 2865.png" alt=""></p>
+                    <form id="send_signIn">
+                        <label for="signIn_name">
+                            <span style="font-weight: 500;">Full Name</span>
+                            <img src="imgs/user.svg" alt="" class="form_icon_user">
+                            <input type="text" class="form-control w-100 mt-1 mb-2" placeholder="Esther Howard" id="signIn_name" required>
+                        </label>
+                        <label for="signIn_password">
+                            <span style="font-weight: 500;">Password</span>
+                            <img src="imgs/lock.svg" alt="" class="form_icon_password">
+                            <input type="password" class="form-control w-100 mt-1 mb-2" placeholder="*************" id="signIn_password" required>
+                            <svg class="open_eye" id="open_eye" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                <path class="open_eye" d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                <path class="open_eye" d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                            </svg>
+                            <svg class="close_eye" id="close_eye" class="close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16">
+                                <path class="close_eye" d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.944 5.944 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/>
+                                <path class="close_eye" d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829z"/>
+                                <path class="close_eye" d="M3.35 5.47c-.18.16-.353.322-.518.487A13.134 13.134 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7.029 7.029 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12-.708.708z"/>
+                            </svg>
+                        </label>
+                        <button class="btn btn-info">Sign In</button>
+                        <span class="d-flex keepMe">
+                            <div>
+                                <input type="checkbox">
+                                <p class="w-100 d-flex">  keep me signed in  </p>
+                            </div>
+                            <span class="d-block">Forgot password?</span>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="scripts/boostrap.js"></script>
+<script src="scripts/util.js"></script>
+<script src="scripts/sign_in.js"></script>
+
+
+</html>

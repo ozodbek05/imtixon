@@ -1,0 +1,1539 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Metropolis", sans-serif;
+}
+
+.close_menu {
+  display: none;
+}
+
+body {
+  background: #F7F5FA;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1250px !important;
+}
+
+.res_mob_menu .res_nav .res_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.295);
+  z-index: 100;
+}
+.res_mob_menu .res_nav .res_menu {
+  z-index: 200;
+  position: absolute;
+  width: 80%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+}
+.res_mob_menu .res_nav .res_menu #res_close_icon {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 30px !important;
+  height: 30px !important;
+  cursor: pointer;
+}
+.res_mob_menu .res_nav .res_menu .res_signOut button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.res_mob_menu .res_nav ul {
+  margin: 100px 0px;
+}
+.res_mob_menu .res_nav ul li a {
+  padding: 15px 40px;
+  font-size: 20px;
+}
+.res_mob_menu .res_nav ul li a:hover {
+  background: #9C4DF4;
+  color: #fff;
+}
+
+header .wrapper .container {
+  max-width: 1250px;
+}
+header .wrapper .container nav form {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+header .wrapper .container nav form h5 {
+  font-size: 16px;
+}
+header .wrapper .container nav form .username_icon {
+  cursor: pointer;
+}
+header .wrapper .container nav form .outSign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 10px;
+}
+header .wrapper .container nav .header_right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+header .wrapper .container nav .header_right .header-shop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .wrapper .container nav .header_right .toggle_menu {
+  display: none;
+}
+header .wrapper .container nav .container-fluid {
+  justify-content: space-between;
+}
+header .wrapper .container nav .container-fluid .navbar-collapse {
+  width: 60% !important;
+  display: block !important;
+}
+header .wrapper .container nav .container-fluid .navbar-collapse ul {
+  margin: 0 !important;
+  justify-content: center;
+}
+header .wrapper .container nav .container-fluid .navbar-collapse ul li a {
+  color: #0A033C;
+  font-family: "Metropolis", sans-serif;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .wrapper .container nav .container-fluid .navbar-collapse ul li a img {
+  color: #0A033C;
+}
+header .wrapper .container nav .container-fluid .header-shop {
+  font-size: 14px;
+}
+
+main .section1 .main_banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  padding: 20px 0px;
+}
+main .section1 .main_banner .banner_text {
+  display: flex;
+  align-items: center;
+}
+main .section1 .main_banner .banner_text .text_wrapper {
+  display: block;
+  padding: 70px 0px !important;
+  position: relative;
+}
+main .section1 .main_banner .banner_text .text_wrapper .btn-white {
+  padding: 7px 15px;
+  color: #FF6652;
+  background-color: #fff;
+  font-size: 18px;
+}
+main .section1 .main_banner .banner_text .text_wrapper h1 {
+  padding: 20px 0px;
+  font-size: 54px;
+  color: #0A033C;
+  font-weight: 700;
+}
+main .section1 .main_banner .banner_text .text_wrapper p {
+  padding-bottom: 20px;
+  color: #5D5A6F;
+}
+main .section1 .main_banner .banner_text .text_wrapper form {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 110%;
+}
+main .section1 .main_banner .banner_text .text_wrapper form .input_center {
+  width: 1px;
+  height: 25px;
+  border-right: 1px solid #DADADA;
+  z-index: 20;
+  position: absolute;
+  left: 32%;
+}
+main .section1 .main_banner .banner_text .text_wrapper form #select {
+  width: 30% !important;
+  border: none;
+  padding: 15px 25px;
+  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  height: 50px;
+  color: rgba(93, 90, 111, 0.6);
+}
+main .section1 .main_banner .banner_text .text_wrapper form #select:focus-visible {
+  outline: none;
+}
+main .section1 .main_banner .banner_text .text_wrapper form input {
+  border: none;
+  padding: 15px 30px;
+  border-radius: none !important;
+  border-bottom-right-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  margin: 0px !important;
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+main .section1 .main_banner .banner_text .text_wrapper form input::-moz-placeholder {
+  color: rgba(93, 90, 111, 0.6) !important;
+}
+main .section1 .main_banner .banner_text .text_wrapper form input:-ms-input-placeholder {
+  color: rgba(93, 90, 111, 0.6) !important;
+}
+main .section1 .main_banner .banner_text .text_wrapper form input::placeholder {
+  color: rgba(93, 90, 111, 0.6) !important;
+}
+main .section1 .main_banner .banner_text .text_wrapper form input:focus-visible {
+  outline: none;
+}
+main .section1 .main_banner .banner_text .text_wrapper form .btn-primary {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: #9C4DF4 !important;
+  border: none;
+  border-radius: 10px !important;
+  padding: 10px 25px;
+  right: 5px;
+}
+main .section1 .main_banner .banner_text .text_wrapper form .btn-primary svg {
+  margin-right: 7px;
+}
+main .section1 .main_banner .banner_img {
+  position: relative;
+}
+main .section1 .main_banner .banner_img img {
+  position: absolute;
+  width: 100%;
+  right: -50px;
+}
+main .section2 .main_classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0px;
+}
+main .section2 .main_classes .casses_head {
+  width: 60% !important;
+  text-align: center;
+  margin: 50px auto;
+}
+main .section2 .main_classes .casses_head h1 {
+  color: #0A033C;
+  font-size: 48px;
+  font-weight: 700;
+}
+main .section2 .main_classes .casses_head p {
+  color: #5D5A6F;
+  font-size: 14px;
+}
+main .section2 .main_classes .casses_head button {
+  background: #9C4DF4;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px !important;
+}
+main .section2 .main_classes .classes_live_container {
+  position: relative;
+  margin: 0px 70px;
+}
+main .section2 .main_classes .classes_live_container .classes_starts {
+  position: absolute;
+  right: 20px !important;
+  top: -90px !important;
+  z-index: -1;
+}
+main .section2 .main_classes .classes_live_container .casses_live .classes_top_img {
+  border-radius: 20px;
+  padding: 22px;
+  width: auto;
+  background: #fff;
+}
+main .section2 .main_classes .classes_live_container .casses_live .classes_top_img img {
+  width: 100%;
+  border-radius: 20px;
+}
+main .section2 .main_classes .classes_live_container .casses_live .contact {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section2 .main_classes .classes_live_container .casses_live .contact button {
+  border: none;
+  padding: 10px 20px !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FAFAFA;
+}
+main .section2 .main_classes .classes_live_container .casses_live .contact button img {
+  padding: 5px !important;
+  margin-right: 7px;
+  border-radius: 6px;
+  width: 50px !important;
+  height: 50px !important;
+  background: #FFF4F2;
+}
+main .section2 .main_classes .classes_live_container .casses_live .contact button span {
+  color: #0A033C;
+  font-size: 12px;
+}
+main .section3 {
+  margin: 80px 0px 100px;
+}
+main .section3 .qualified_lessons .lesson_head {
+  text-align: center;
+  margin: 50px auto;
+}
+main .section3 .qualified_lessons .lesson_head h2 {
+  color: #0A033C;
+  font-weight: 700;
+}
+main .section3 .qualified_lessons .lesson_head p {
+  color: #5D5A6F;
+}
+main .section3 .qualified_lessons .lesson_category .category_btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 50px;
+}
+main .section3 .qualified_lessons .lesson_category .category_btn button {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+main .section3 .qualified_lessons .lesson_category .category_btn .cat_Kindergarten,
+main .section3 .qualified_lessons .lesson_category .category_btn .cat_Collage {
+  background-color: #fff;
+  color: #0A033C;
+}
+main .section3 .qualified_lessons .lesson_category .category_btn .cat_HighSchool {
+  background: #FF6652;
+  color: #fff;
+  margin: 0px 20px;
+}
+main .section3 .qualified_lessons .lesson_category .category_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card .card-img-top {
+  width: 50px;
+  margin: 10px 0px;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card .card-body h3 {
+  color: #0A033C;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card .card-body p {
+  color: #5D5A6F;
+  font-size: 14px;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a {
+  padding: 8px 25px;
+  border: 1px solid #9C4DF4;
+  color: #9C4DF4;
+}
+main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a:hover {
+  background: #9C4DF4 !important;
+  color: #fff;
+}
+main .section3 .qualified_lessons .lesson_category .visit_more_classes {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+main .section3 .qualified_lessons .lesson_category .visit_more_classes button {
+  background: #9C4DF4;
+  border: none;
+  padding: 10px 25px;
+}
+main .section4 {
+  margin: 50px 0px;
+}
+main .section4 .college_level {
+  background: #EDE9F2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+main .section4 .college_level .college_reg {
+  padding: 0px 50px;
+}
+main .section4 .college_level .college_reg .btn-outline-primary {
+  background: #E4E2F4;
+  border-radius: 10px;
+  color: #9C4DF4;
+  border: none;
+  padding: 10px 25px;
+}
+main .section4 .college_level .college_reg h1 {
+  margin: 30px 0px;
+  font-size: 36px;
+  color: #0A033C;
+  font-weight: 700;
+}
+main .section4 .college_level .college_reg p {
+  margin-bottom: 30px;
+  color: #5D5A6F;
+}
+main .section4 .college_level .college_reg .btn-success {
+  background: #9C4DF4;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+}
+main .section4 .college_level .college_img {
+  padding-top: 80px;
+  margin: 0;
+  position: relative;
+}
+main .section4 .college_level .college_img .college_img_main {
+  position: relative;
+  top: 0;
+  z-index: 5 !important;
+  width: 100%;
+}
+main .section4 .college_level .college_img .college_img_main .college_starts {
+  position: absolute;
+  top: -5%;
+  left: 20%;
+  z-index: 1;
+}
+main .section4 .college_level .college_img .icon_HTML {
+  position: absolute;
+  top: 17%;
+  left: -30px;
+}
+main .section4 .college_level .college_img .icon_PHP {
+  position: absolute;
+  top: 22%;
+  right: 10%;
+}
+main .section4 .college_level .college_img .icon_JAVA {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+main .section5 {
+  margin: 100px 0px;
+}
+main .section5 .career {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+main .section5 .career .career_img {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+main .section5 .career .career_img img {
+  width: 100%;
+}
+main .section5 .career .career_text {
+  padding: 50px;
+}
+main .section5 .career .career_text h1 {
+  margin: 30px 0px;
+  font-size: 36px;
+  color: #0A033C;
+  font-weight: 700;
+}
+main .section5 .career .career_text p {
+  margin-bottom: 30px;
+  color: #5D5A6F;
+}
+main .section5 .career .career_text .btn-primary {
+  background: #9C4DF4;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+}
+main .section6 {
+  margin: 100px 0px;
+}
+main .section6 .subscribe {
+  background: #0A033C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 50px;
+  border-radius: 20px;
+}
+main .section6 .subscribe .subLeftImg {
+  position: relative;
+}
+main .section6 .subscribe .subLeftImg .sub_student {
+  position: absolute;
+  top: -110px;
+  left: 0;
+}
+main .section6 .subscribe .subLeftImg .sub_girl {
+  position: absolute;
+  bottom: -110px;
+  left: 20px;
+}
+main .section6 .subscribe .subLeftImg .sub_webBoy {
+  position: absolute;
+  top: -30px;
+  right: 100px;
+}
+main .section6 .subscribe .subRightImg {
+  position: relative;
+}
+main .section6 .subscribe .subRightImg .sub_boy {
+  position: absolute;
+  top: -110px;
+  right: 20px;
+}
+main .section6 .subscribe .subRightImg .sub_baby {
+  position: absolute;
+  bottom: -110px;
+  right: 0px;
+}
+main .section6 .subscribe .subRightImg .sub_webGirl {
+  position: absolute;
+  top: -30px;
+  left: 100px;
+}
+main .section6 .subscribe .subEmail {
+  display: block;
+  text-align: center;
+}
+main .section6 .subscribe .subEmail h2 {
+  color: #fff;
+  font-size: 40px;
+}
+main .section6 .subscribe .subEmail p {
+  color: rgba(255, 255, 255, 0.7);
+}
+main .section6 .subscribe .subEmail .sendEmail {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section6 .subscribe .subEmail .sendEmail button {
+  background-color: #9C4DF4;
+  border: none;
+  color: #fff;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding: 10px 25px;
+}
+main .section6 .subscribe .subEmail .sendEmail input {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+main .section6 .subscribe .subEmail .sendEmail input:focus-visible {
+  outline: none;
+}
+main .section6 .subscribe .subEmail .sendEmail input::-moz-placeholder {
+  color: #fff;
+}
+main .section6 .subscribe .subEmail .sendEmail input:-ms-input-placeholder {
+  color: #fff;
+}
+main .section6 .subscribe .subEmail .sendEmail input::placeholder {
+  color: #fff;
+}
+
+footer {
+  align-items: stretch;
+}
+footer .social,
+footer .courses,
+footer .community,
+footer .quick,
+footer .more {
+  padding: 20px;
+  display: grid;
+}
+footer .social a,
+footer .courses a,
+footer .community a,
+footer .quick a,
+footer .more a {
+  font-size: 14px;
+  color: #5D5A6F;
+}
+footer .social a:hover,
+footer .courses a:hover,
+footer .community a:hover,
+footer .quick a:hover,
+footer .more a:hover {
+  color: #000;
+  font-weight: 500;
+}
+footer h5 {
+  font-weight: 700;
+}
+footer .social {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+footer .social .social_logo {
+  display: flex;
+  align-items: center;
+}
+footer .social .social_logo h5 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+footer .social .social_icon {
+  display: flex;
+  gap: 15px;
+  margin: 30px 0px;
+}
+footer .social p {
+  color: #5D5A6F;
+}
+footer .social p span {
+  display: block;
+  margin-bottom: -15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header .wrapper .container nav {
+    display: flex;
+  }
+  header .wrapper .container nav .container-fluid {
+    width: 30% !important;
+  }
+  header .wrapper .container nav .container-fluid .navbar-collapse {
+    display: none !important;
+  }
+  header .wrapper .container nav .header_right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+  }
+  header .wrapper .container nav .header_right .header-shop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header .wrapper .container nav .header_right form h5 {
+    font-size: 16px;
+  }
+  header .wrapper .container nav .header_right .toggle_menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header .wrapper .container nav .header_right .toggle_menu span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper {
+    display: block;
+    padding: 50px 0px !important;
+    position: relative !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper .btn-white {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper h1 {
+    font-size: 30px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper p {
+    font-size: 12px !important;
+    padding: 0 !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form {
+    position: absolute !important;
+    bottom: 0;
+    width: 120%;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .input_center {
+    height: 20px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form #select {
+    height: 40px !important;
+    font-size: 14px;
+    padding: 5px 15px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input {
+    font-size: 14px;
+    height: 40px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .btn-primary {
+    height: 36px !important;
+    font-size: 14px;
+  }
+  main .section1 .main_banner .banner_img {
+    position: relative;
+  }
+  main .section1 .main_banner .banner_img img {
+    width: 100%;
+    position: unset !important;
+    height: 100% !important;
+  }
+  main .section2 .main_classes .casses_head h1 {
+    font-size: 30px !important;
+  }
+  main .section2 .main_classes .casses_head p {
+    margin: 20px 0px !important;
+  }
+  main .section2 .main_classes .casses_head button {
+    padding: 8px 15px;
+    font-size: 14px !important;
+  }
+  main .section2 .main_classes .classes_live_container .classes_starts {
+    right: 10px !important;
+    top: -80px !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button {
+    padding: 10px !important;
+    font-size: 16px !important;
+    width: 30% !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  main .section4 .college_level {
+    position: relative !important;
+  }
+  main .section4 .college_level .college_reg h1 {
+    font-size: 24px;
+  }
+  main .section4 .college_level .college_reg p {
+    font-size: 12px;
+  }
+  main .section5 {
+    margin: 100px 0px;
+  }
+  main .section5 .career .career_img {
+    padding: 0px;
+  }
+  main .section5 .career .career_text h1 {
+    font-size: 28px;
+  }
+  main .section5 .career .career_text p {
+    font-size: 14px;
+  }
+  main .section6 {
+    margin: 100px 0px;
+  }
+  main .section6 .subscribe {
+    padding: 80px 40px !important;
+  }
+  main .section6 .subscribe img {
+    width: 48px;
+  }
+  main .section6 .subscribe .subLeftImg .sub_webBoy {
+    right: 50px;
+  }
+  main .section6 .subscribe .subRightImg .sub_webGirl {
+    left: 50px;
+  }
+  main .section6 .subscribe .subEmail h2 {
+    font-size: 28px;
+  }
+  main .section6 .subscribe .subEmail p {
+    margin: 20px 0px !important;
+    font-size: 12px !important;
+  }
+  footer .social a,
+footer .courses a,
+footer .community a,
+footer .quick a,
+footer .more a {
+    font-size: 12px;
+    color: #5D5A6F;
+    padding: 7px 0px !important;
+  }
+  footer .social {
+    padding: 20px !important;
+  }
+  footer .social .social_logo {
+    display: flex;
+    align-items: center;
+  }
+  footer .social .social_logo h5 {
+    margin: 0px 0px 0px 7px;
+  }
+  footer .social .social_icon {
+    gap: 10px !important;
+  }
+  footer .social .social_icon img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  footer .social p {
+    color: #5D5A6F;
+    font-size: 12px !important;
+  }
+  footer .social p span {
+    display: block;
+    margin: 0 !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  header .wrapper .container nav {
+    display: flex;
+  }
+  header .wrapper .container nav .container-fluid {
+    width: 30% !important;
+  }
+  header .wrapper .container nav .container-fluid .navbar-collapse {
+    display: none !important;
+  }
+  header .wrapper .container nav .header_right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+  }
+  header .wrapper .container nav .header_right .header-shop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header .wrapper .container nav .header_right form h5 {
+    font-size: 16px;
+  }
+  header .wrapper .container nav .header_right .toggle_menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header .wrapper .container nav .header_right .toggle_menu span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  main .section1 .main_banner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper {
+    display: block;
+    padding: 70px 0px !important;
+    position: relative !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper .btn-white {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper h1 {
+    font-size: 32px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper p {
+    font-size: 12px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .input_center {
+    display: none !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form #select {
+    width: 100% !important;
+    border-radius: 10px;
+    height: 50px;
+    color: rgba(93, 90, 111, 0.6);
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form #select:focus-visible {
+    outline: none;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input {
+    border-radius: 10px !important;
+    margin: 0px !important;
+    height: 50px;
+    margin: 20px 0px !important;
+    width: 100% !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input::-moz-placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input:-ms-input-placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input::placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input:focus-visible {
+    outline: none;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .btn-primary {
+    position: unset !important;
+    width: 100% !important;
+    margin: 0 !important;
+    right: 5px;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .btn-primary svg {
+    margin-right: 7px;
+  }
+  main .section1 .main_banner .banner_img {
+    position: relative;
+  }
+  main .section1 .main_banner .banner_img img {
+    width: 100%;
+    position: unset !important;
+    height: 100% !important;
+  }
+  main .section2 .main_classes {
+    padding: 10px 0px !important;
+  }
+  main .section2 .main_classes .casses_head {
+    width: 100% !important;
+  }
+  main .section2 .main_classes .casses_head h1 {
+    font-size: 30px !important;
+  }
+  main .section2 .main_classes .casses_head p {
+    margin: 20px 0px !important;
+  }
+  main .section2 .main_classes .casses_head button {
+    border-radius: 5px !important;
+  }
+  main .section2 .main_classes .classes_live_container {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  main .section2 .main_classes .classes_live_container .classes_starts {
+    display: none !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .classes_top_img {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button {
+    padding: 10px 20px 10px 10px !important;
+    font-size: 16px !important;
+    margin: 5px 0px;
+    width: auto;
+    background: #FAFAFA;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button span {
+    font-size: 12px;
+  }
+  main .section3 {
+    margin: 50px 0px;
+  }
+  main .section3 .qualified_lessons .lesson_head {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  main .section3 .qualified_lessons .lesson_head h2 {
+    font-size: 28px;
+    color: #0A033C;
+    font-weight: 700;
+  }
+  main .section3 .qualified_lessons .lesson_head p {
+    font-size: 14px;
+    color: #5D5A6F;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 50px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn .cat_Kindergarten,
+main .section3 .qualified_lessons .lesson_category .category_btn .cat_Collage {
+    background-color: #fff;
+    color: #0A033C;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn .cat_HighSchool {
+    background: #FF6652;
+    color: #fff;
+    margin: 0px 10px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 15px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-img-top {
+    width: 50px;
+    margin: 10px 0px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body h3 {
+    color: #0A033C;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body p {
+    color: #5D5A6F;
+    font-size: 14px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a {
+    padding: 8px 25px;
+    border: 1px solid #9C4DF4;
+    color: #9C4DF4;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a:hover {
+    background: #9C4DF4 !important;
+    color: #fff;
+  }
+  main .section3 .qualified_lessons .lesson_category .visit_more_classes {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  main .section3 .qualified_lessons .lesson_category .visit_more_classes button {
+    background: #9C4DF4;
+    border: none;
+    padding: 10px 25px;
+  }
+  main .section4 .college_level .college_reg {
+    padding: 20px;
+  }
+  main .section4 .college_level .college_reg h1 {
+    font-size: 22px;
+  }
+  main .section4 .college_level .college_reg p {
+    font-size: 12px;
+  }
+  main .section4 .college_level .college_img {
+    padding-top: 80px;
+    margin: 0;
+    position: relative;
+  }
+  main .section4 .college_level .college_img .college_img_main .college_starts {
+    position: absolute;
+    top: -26%;
+    left: 10%;
+    width: 140px;
+  }
+  main .section4 .college_level .college_img .icon_HTML {
+    width: 100px;
+    top: -7%;
+    left: -42px;
+  }
+  main .section4 .college_level .college_img .icon_PHP {
+    width: 100px;
+    top: 22%;
+    right: 5%;
+  }
+  main .section4 .college_level .college_img .icon_JAVA {
+    width: 100px;
+    top: -8%;
+    right: 8%;
+  }
+  main .section5 .career {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section5 .career .career_img {
+    padding: 0px !important;
+  }
+  main .section5 .career .career_img img {
+    width: 100%;
+  }
+  main .section5 .career .career_text {
+    padding: 0px !important;
+  }
+  main .section5 .career .career_text h1 {
+    font-size: 30px;
+  }
+  main .section5 .career .career_text p {
+    font-size: 16px;
+  }
+  main .section5 .career .career_text .btn-primary {
+    padding: 15px 25px;
+  }
+  main .section6 {
+    margin: 0px;
+  }
+  main .section6 .subscribe {
+    padding: 50px 30px;
+  }
+  main .section6 .subscribe .subLeftImg {
+    display: none !important;
+  }
+  main .section6 .subscribe .subRightImg {
+    display: none;
+  }
+  main .section6 .subscribe .subEmail {
+    display: block;
+    text-align: center;
+  }
+  main .section6 .subscribe .subEmail h2 {
+    color: #fff;
+    font-size: 28px;
+  }
+  main .section6 .subscribe .subEmail p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  main .section6 .subscribe .subEmail .sendEmail {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  main .section6 .subscribe .subEmail .sendEmail button {
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input:focus-visible {
+    outline: none;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input::-moz-placeholder {
+    color: #fff;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input:-ms-input-placeholder {
+    color: #fff;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input::placeholder {
+    color: #fff;
+  }
+  footer h5 {
+    font-weight: 700;
+  }
+  footer .social .social_logo h5 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  header .wrapper {
+    padding: 30px 0px 0px !important;
+  }
+  header .wrapper .container nav .container-fluid {
+    width: 40% !important;
+  }
+  header .wrapper .container nav .container-fluid .navbar-collapse {
+    display: none !important;
+  }
+  header .wrapper .container nav .header_right .header-shop {
+    display: none !important;
+  }
+  header .wrapper .container nav .header_right form {
+    display: none !important;
+  }
+  header .wrapper .container nav .header_right .toggle_menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header .wrapper .container nav .header_right .toggle_menu span {
+    font-size: 20px !important;
+    font-weight: 500;
+  }
+  main .section1 .main_banner {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper {
+    display: block;
+    padding: 20px 0px !important;
+    position: relative !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper .btn-white {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper h1 {
+    font-size: 32px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper p {
+    font-size: 12px !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .input_center {
+    display: none !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form #select {
+    width: 100% !important;
+    border-radius: 10px;
+    height: 50px;
+    color: rgba(93, 90, 111, 0.6);
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form #select:focus-visible {
+    outline: none;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input {
+    border-radius: 10px !important;
+    margin: 0px !important;
+    height: 50px;
+    margin: 20px 0px !important;
+    width: 100% !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input::-moz-placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input:-ms-input-placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input::placeholder {
+    color: rgba(93, 90, 111, 0.6) !important;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form input:focus-visible {
+    outline: none;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .btn-primary {
+    position: unset !important;
+    width: 100% !important;
+    margin: 0 !important;
+    right: 5px;
+  }
+  main .section1 .main_banner .banner_text .text_wrapper form .btn-primary svg {
+    margin-right: 7px;
+  }
+  main .section1 .main_banner .banner_img {
+    position: relative;
+  }
+  main .section1 .main_banner .banner_img img {
+    width: 100%;
+    position: unset !important;
+    height: 100% !important;
+  }
+  main .section2 .main_classes {
+    padding: 10px 0px !important;
+  }
+  main .section2 .main_classes .casses_head {
+    width: 100% !important;
+  }
+  main .section2 .main_classes .casses_head h1 {
+    font-size: 30px !important;
+  }
+  main .section2 .main_classes .casses_head p {
+    margin: 20px 0px !important;
+  }
+  main .section2 .main_classes .casses_head button {
+    border-radius: 5px !important;
+  }
+  main .section2 .main_classes .classes_live_container {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  main .section2 .main_classes .classes_live_container .classes_starts {
+    display: none !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .classes_top_img {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button {
+    padding: 10px 20px 10px 10px !important;
+    font-size: 16px !important;
+    margin: 5px 0px;
+    width: auto;
+    background: #FAFAFA;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  main .section2 .main_classes .classes_live_container .casses_live .contact button span {
+    font-size: 12px;
+  }
+  main .section3 {
+    margin: 50px 0px;
+  }
+  main .section3 .qualified_lessons .lesson_head {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  main .section3 .qualified_lessons .lesson_head h2 {
+    font-size: 28px;
+    color: #0A033C;
+    font-weight: 700;
+  }
+  main .section3 .qualified_lessons .lesson_head p {
+    font-size: 14px;
+    color: #5D5A6F;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 50px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn .cat_Kindergarten,
+main .section3 .qualified_lessons .lesson_category .category_btn .cat_Collage {
+    background-color: #fff;
+    color: #0A033C;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_btn .cat_HighSchool {
+    background: #FF6652;
+    color: #fff;
+    margin: 0px 10px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 15px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-img-top {
+    width: 50px;
+    margin: 10px 0px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body h3 {
+    color: #0A033C;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body p {
+    color: #5D5A6F;
+    font-size: 14px;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a {
+    padding: 8px 25px;
+    border: 1px solid #9C4DF4;
+    color: #9C4DF4;
+  }
+  main .section3 .qualified_lessons .lesson_category .category_card .card .card-body a:hover {
+    background: #9C4DF4 !important;
+    color: #fff;
+  }
+  main .section3 .qualified_lessons .lesson_category .visit_more_classes {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  main .section3 .qualified_lessons .lesson_category .visit_more_classes button {
+    background: #9C4DF4;
+    border: none;
+    padding: 10px 25px;
+  }
+  main .section4 {
+    margin: 50px 0px;
+  }
+  main .section4 .college_level {
+    display: grid;
+  }
+  main .section4 .college_level .college_reg {
+    padding: 30px 20px !important;
+    width: 100%;
+  }
+  main .section4 .college_level .college_reg h1 {
+    font-size: 28px;
+  }
+  main .section4 .college_level .college_reg p {
+    font-size: 14px;
+  }
+  main .section4 .college_level .college_reg .btn-success {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  main .section4 .college_level .college_img .college_img_main {
+    width: 100%;
+  }
+  main .section4 .college_level .college_img .college_img_main #col_img {
+    width: 95%;
+    float: right;
+  }
+  main .section4 .college_level .college_img .college_img_main .college_starts {
+    position: absolute;
+    top: -60px;
+    left: 21%;
+    z-index: 1;
+  }
+  main .section4 .college_level .college_img .icon_HTML {
+    width: 140px;
+    position: absolute;
+    top: 22%;
+    left: -24px;
+  }
+  main .section4 .college_level .college_img .icon_PHP {
+    width: 140px;
+    position: absolute;
+    top: 16%;
+    right: 2%;
+  }
+  main .section4 .college_level .college_img .icon_JAVA {
+    width: 140px;
+    position: absolute;
+    top: -7%;
+    right: 0%;
+  }
+  main .section5 .career {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section5 .career .career_img {
+    padding: 0px !important;
+  }
+  main .section5 .career .career_img img {
+    width: 100%;
+  }
+  main .section5 .career .career_text {
+    padding: 0px !important;
+  }
+  main .section5 .career .career_text h1 {
+    font-size: 30px;
+  }
+  main .section5 .career .career_text p {
+    font-size: 16px;
+  }
+  main .section5 .career .career_text .btn-primary {
+    padding: 15px 25px;
+  }
+  main .section6 {
+    margin: 0px;
+  }
+  main .section6 .subscribe {
+    padding: 50px 30px;
+  }
+  main .section6 .subscribe .subLeftImg {
+    display: none !important;
+  }
+  main .section6 .subscribe .subRightImg {
+    display: none;
+  }
+  main .section6 .subscribe .subEmail {
+    display: block;
+    text-align: center;
+  }
+  main .section6 .subscribe .subEmail h2 {
+    color: #fff;
+    font-size: 28px;
+  }
+  main .section6 .subscribe .subEmail p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  main .section6 .subscribe .subEmail .sendEmail {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  main .section6 .subscribe .subEmail .sendEmail button {
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input:focus-visible {
+    outline: none;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input::-moz-placeholder {
+    color: #fff;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input:-ms-input-placeholder {
+    color: #fff;
+  }
+  main .section6 .subscribe .subEmail .sendEmail input::placeholder {
+    color: #fff;
+  }
+  footer h5 {
+    font-weight: 700;
+  }
+  footer .social .social_logo h5 {
+    font-size: 30px;
+  }
+}
+.close {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */

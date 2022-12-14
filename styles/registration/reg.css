@@ -1,0 +1,177 @@
+.close {
+  display: none;
+}
+
+.wrapper .sign_up {
+  overflow: hidden;
+  position: relative;
+  background-color: #9633FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.wrapper .sign_up .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 90%;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px hsla(0deg, 0%, 0%, 0.3);
+}
+.wrapper .sign_up .container .left {
+  width: 46%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.wrapper .sign_up .container .left .left_text h2 {
+  margin: 10px 0px 30px;
+}
+.wrapper .sign_up .container .left .imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .sign_up .container .left .imgs .top_img {
+  width: 90%;
+}
+.wrapper .sign_up .container .left .imgs .img_slider {
+  width: 40px;
+  margin: 10px 0px;
+}
+.wrapper .sign_up .container .right {
+  border: none;
+  width: 46%;
+}
+.wrapper .sign_up .container .right .sing_google {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .sign_up .container .right .sing_google button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  border: 1px solid #DEDDE4;
+  text-align: center;
+}
+.wrapper .sign_up .container .right .sing_google button img {
+  position: absolute;
+  left: 0;
+  margin: 0px 2px;
+  float: left;
+}
+.wrapper .sign_up .container .right p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5D5A6F;
+  margin: 20px 0px;
+}
+.wrapper .sign_up .container .right p img {
+  height: 1px;
+  width: 30px;
+  color: #5D5A6F;
+  margin: 0px 5px;
+}
+.wrapper .sign_up .container .right form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.wrapper .sign_up .container .right form label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .sign_up .container .right form label input {
+  width: 100%;
+  padding: 10px 40px;
+}
+.wrapper .sign_up .container .right form label img {
+  position: absolute;
+}
+.wrapper .sign_up .container .right form label .form_icon_user {
+  top: 52%;
+  margin: 0px 15px;
+}
+.wrapper .sign_up .container .right form label .form_icon_email {
+  top: 57%;
+  margin: 0px 15px;
+}
+.wrapper .sign_up .container .right form label .form_icon_password {
+  top: 52%;
+  margin: 0px 15px;
+}
+.wrapper .sign_up .container .right form label svg {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  cursor: pointer;
+}
+.wrapper .sign_up .container .right form .I_agree {
+  margin: 20px 0px !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .sign_up .container .right form .I_agree div a {
+  color: #9633FF;
+  font-size: 12px;
+}
+.wrapper .sign_up .container .right form .I_agree p {
+  display: block;
+  font-size: 12px;
+  margin: 0px 10px;
+}
+.wrapper .sign_up .container .right form .btn-info {
+  border: none;
+  background-color: #9633FF;
+  color: #fff;
+  padding: 10px 25px;
+}
+.wrapper .sign_up .container .right form p a {
+  color: #9633FF;
+  font-weight: 500;
+}
+.wrapper .sign_up .container .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+.wrapper .sign_up .container .middle img {
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .sign_up .container {
+    margin: 0px 10px;
+  }
+  .wrapper .sign_up .container .left, .wrapper .sign_up .container .middle {
+    display: none;
+  }
+  .wrapper .sign_up .container .right {
+    margin: 0px 10px;
+    width: 100% !important;
+    padding: 50px 10px;
+  }
+  .wrapper .sign_up .container .right .sing_google button {
+    font-size: 14px;
+    padding: 8px 45px;
+  }
+  .wrapper .sign_up .container .right .sing_google button img {
+    width: 35px;
+  }
+  .wrapper .sign_up .container .right p {
+    font-size: 14px;
+  }
+  .wrapper .sign_up .container .right p img {
+    width: 20px;
+  }
+}/*# sourceMappingURL=reg.css.map */

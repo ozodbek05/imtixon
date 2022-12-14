@@ -1,0 +1,18 @@
+.wrapper .sign_up .container .right form .btn-info {
+  margin: 10px 0px;
+}
+.wrapper .sign_up .container .right form .keepMe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5D5A6F;
+}
+.wrapper .sign_up .container .right form .keepMe div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+.wrapper .sign_up .container .right form .keepMe span {
+  font-size: 14px;
+}/*# sourceMappingURL=sign_in.css.map */

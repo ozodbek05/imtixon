@@ -1,0 +1,28 @@
+.wrapper{
+    .sign_up{
+        .container{
+            .right{
+                form{
+                    .btn-info{
+                        margin: 10px 0px;
+                    }
+                    .keepMe{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        color: #5D5A6F;
+                        div{
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            gap: 5px;
+                        }
+                        span{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

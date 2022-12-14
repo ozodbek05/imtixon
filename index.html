@@ -1,0 +1,463 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Vidhadaya</title>
+    <link rel="icon" href="imgs/logo.svg" type="image/gif">
+</head>
+
+<body>
+    <div class="res_mob_menu close_menu">
+        <div class="res_nav ">
+            <div class="res_back"></div>
+            <div class="res_menu">
+                <svg id="res_close_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                </svg>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">For Kindergarten <img src="imgs/down_icon.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">For High School <img src="imgs/down_icon.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">For College <img src="imgs/down_icon.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Courses <img src="imgs/down_icon.svg" alt=""></a>
+                    </li>
+                </ul>
+                <div class="res_signOut px-4 my-5">
+                    <button class="btn btn-danger w-100 p-2" id="btn_res_signOut">
+                        <span>Login out</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper container">
+        <header>
+            <div class="wrapper">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg col-12">
+                        <div class="container-fluid d-flex col-9">
+                            <a href="#" class="navbar-brand col-2 d-flex align-items-center">
+                                <img src="imgs/logo.svg" alt="">
+                                <strong class="ms-2 fs-2">
+                                    Eduvi
+                                </strong>
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Shop</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">For Kindergarten <img src="imgs/down_icon.svg"
+                                                alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">For High School <img src="imgs/down_icon.svg"
+                                                alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">For College <img src="imgs/down_icon.svg"
+                                                alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Courses <img src="imgs/down_icon.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header_right col">
+                            <div class="header-shop">
+                                <span class="me-2">Cart (0)</span>
+                                <img src="imgs/shop.svg" alt="">
+                            </div>
+                            <form class="d-flex align-items-center">
+                                <h5 class="mb-0 me-2" id="userNameHome">My Account</h5>
+                                <img src="imgs/user_icon.svg" alt="" class="username_icon">
+                                <div class="outSign close" id="outSignIn">
+                                    <span>Login out</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                                        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                    </svg>
+                                </div>
+                            </form>
+                            <div class="toggle_menu ">
+                                <span>Menu</span>
+                                <span class="navbar-toggler-icon"></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="main_banner container">
+                    <div class="banner_text container">
+                        <div class="text_wrapper">
+                            <button class="btn btn-white shadow">Never Stop Learning</button>
+                            <h1>Grow up your skills
+                                by online courses
+                                with Eduvi
+                            </h1>
+                            <p>Eduvi is a Global training provider based across the UK that specialises in accredited
+                                and
+                                bespoke
+                                training courses. We crush the barriers togetting a degree.
+                            </p>
+                            <form class="d-flex" role="search">
+                                <select name="" id="select" class="col-3">
+                                    <option value="category ">Kindergarten</option>
+                                    <option value="category ">KindSchool</option>
+                                    <option value="category ">KinderEducation</option>
+                                </select>
+                                <div class="input_center"></div>
+                                <input class="col" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="banner_img container">
+                        <img src="imgs/banner_image.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section2">
+                <div class="main_classes container">
+                    <div class="casses_head text-center col-6">
+                        <h1>High quality video, audio
+                            <br>
+                            & live classes
+                        </h1>
+                        <p>High-definition video is video of higher resolution and quality than standard-definition.
+                            While
+                            there is no standardized meaning for high-definition, generally any video image with
+                            considerably more than
+                            480 vertical scan lines or 576 vertical lines is considered high-definition.
+                        </p>
+                        <button class="btn btn-primary shadow">Visit Courses</button>
+                    </div>
+                    <div class="classes_live_container">
+                        <img src="imgs/starts.svg" alt="" class="classes_starts ">
+                        <div class="casses_live col-11">
+                            <div class="classes_top_img">
+                                <img src="imgs/live_casses-img.png" alt="">
+                            </div>
+                            <div class="contact">
+                                <button class="col-3 shadow">
+                                    <img src="imgs/audio_classes.svg" alt="">
+                                    <span>
+                                        Audio Classes
+                                    </span>
+                                </button>
+                                <button class="col-3 shadow">
+                                    <img src="imgs/live_classes.svg" alt="">
+                                    <span>
+                                        Live Classes
+                                    </span>
+                                </button>
+                                <button class="col-3 shadow">
+                                    <img src="imgs/media_classes.svg" alt="">
+                                    <span>
+                                        Reacorder Classes
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section3">
+                <div class="qualified_lessons container">
+                    <div class="lesson_head col-6">
+                        <h2>Qualified lessons for students</h2>
+                        <p>A lesson or class is a structured period of time where learning is intended to occur. It
+                            involves
+                            one or more students being taught by a teacher or instructor.
+                        </p>
+                    </div>
+                    <div class="lesson_category">
+                        <div class="category_btn">
+                            <button class="cat_Kindergarten shadow">Kindergarten</button>
+                            <button class="cat_HighSchool shadow">High School</button>
+                            <button class="cat_Collage shadow">Collage</button>
+                        </div>
+                        <div class="category_card">
+                            <div class="card shadow">
+                                <img src="imgs/card_1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard One</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Two</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_3.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Three</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_4.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Four</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_5.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Five</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_6.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Six</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_7.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Seven</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <img src="imgs/card_8.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title">Standard Eight</h3>
+                                    <p class="card-text">Standard 1 is a foundation Standard that reflects 7 important
+                                        concepts...
+                                    </p>
+                                    <a href="#" class="btn btn-outline-primary">
+                                        Class Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visit_more_classes">
+                            <button class="btn btn-primary shadow">Visit More Classes</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section4">
+                <div class="college_level container">
+                    <div class="college_reg col-6">
+                        <button class="btn btn-outline-primary shadow">College Level</button>
+                        <h1>Don’t waste time in
+                            COVID-19 pandemic.
+                            Develop your skills.
+                        </h1>
+                        <p>High-definition video is video of higher resolution and quality than standard-definition.
+                            While
+                            there is no standardized
+                            meaning for high-definition, generally any video.
+                        </p>
+                        <button class="btn btn-success shadow">Registation Now</button>
+                    </div>
+                    <div class="college_img col">
+                        <div class="college_img_main">
+                            <!-- <img src="imgs/res_sec4_img.svg" alt=""> -->
+                            <img src="imgs/college_img.png" alt="" class="college_img_main" id="col_img">
+                            <img src="imgs/college_starts.svg" alt="" class="college_starts">
+                        </div>
+                        <img src="imgs/4.png" alt="" class="icon_HTML">
+                        <img src="imgs/5.png" alt="" class="icon_PHP">
+                        <img src="imgs/6.png" alt="" class="icon_JAVA">
+                    </div>
+                </div>
+            </section>
+            <section class="section5">
+                <div class="career container">
+                    <div class="career_img">
+                        <img src="imgs/career_image.png" alt="">
+                    </div>
+                    <div class="career_text">
+                        <h1>Want to share your
+                            knowledge? Join us
+                            a Mentor
+                        </h1>
+                        <p>High-definition video is video of higher resolution and quality than standard-definition.
+                            While
+                            there is no standardized meaning for high-definition, generally any video.
+                        </p>
+                        <button class="btn btn-primary">Career Information</button>
+                    </div>
+                </div>
+            </section>
+            <section class="section6">
+                <div class="subscribe container">
+                    <div class="subLeftImg col-3">
+                        <img src="imgs/student.png" alt="" class="sub_student">
+                        <img src="imgs/baby_girl.png" alt="" class="sub_girl">
+                        <img src="imgs/web_boy.png" alt="" class="sub_webBoy">
+                    </div>
+                    <div class="subEmail">
+                        <h2>Subscribe For Get Update
+                            Every New Courses
+                        </h2>
+                        <p>20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+                        <div class="sendEmail">
+                            <input type="email" placeholder="enter your email">
+                            <button class="btn btn-info">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="subRightImg col-3">
+                        <img src="imgs/web_girl.png" alt="" class="sub_webGirl">
+                        <img src="imgs/boy.png" alt="" class="sub_boy">
+                        <img src="imgs/baby.png" alt="" class="sub_baby">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-2">
+            <div class="social">
+                <div class="social_logo">
+                    <img src="imgs/logo.svg" alt="">
+                    <h5 class="">
+                        Eduvi
+                    </h5>
+                </div>
+                <div class="social_icon">
+                    <img src="imgs/facebook.svg" alt="">
+                    <img src="imgs/instagram.svg" alt="">
+                    <img src="imgs/twitter.svg" alt="">
+                    <img src="imgs/in.svg" alt="">
+                </div>
+                <p>
+                    <span>
+                        ©2021 Eduvi.co
+                    </span>
+                    <br>
+                    Eduvi is a registered
+                    trademark of Eduvi.co
+                </p>
+            </div>
+            <div class="courses">
+                <h5>Courses</h5>
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Classroom courses</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Virtual classroom courses</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">E-learning courses</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Video Courses</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Offline Courses</a></li>
+                </ul>
+            </div>
+            <div class="community">
+                <h5>Community</h5>
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Learners</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Parteners</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Developers</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Transactions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Teaching Center</a></li>
+                </ul>
+            </div>
+            <div class="quick">
+                <h5>Quick links</h5>
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Professional Education</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Courses</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Admissions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Testimonial</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Programs</a></li>
+                </ul>
+            </div>
+            <div class="more ">
+                <h5>More</h5>
+                <ul class="navbar-nav  ">
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Press</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Investors</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Terms</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Privacy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Help</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-red">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+<script src="scripts/boostrap.js"></script>
+<script src="scripts/util.js"></script>
+<script src="script.js"></script>
+
+</html>
